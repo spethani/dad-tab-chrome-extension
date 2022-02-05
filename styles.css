@@ -34,6 +34,35 @@ table {
 }
 
 /** Our own styling **/
+body {
+  background: repeating-linear-gradient(
+    45deg,
+    #ffc484,
+    #ffc484 50px,
+    #a1caf1 50px,
+    #a1caf1 100px
+  );
+}
+
 h1 {
   font-size: 50px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center;
+}
+
+#dadJokeContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dadJokeInner {
+  height: 50vh;
+  width: 50vw;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 15px solid #a1caf1;
 }
