@@ -55,10 +55,11 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 #dadJokeInner {
-  height: 50vh;
+  min-height: 50vh;
   width: 50vw;
   background-color: #ffffff;
   display: flex;
@@ -76,4 +77,14 @@ h1 {
 
 #dadJoke {
   word-wrap: break-word;
+}
+
+#shareDadJoke {
+  height: fit-content;
+  width: fit-content;
+  margin-top: -30px;
+}
+
+img {
+  height: 150px;
 }
