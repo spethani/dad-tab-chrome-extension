@@ -17,3 +17,6 @@ fetch(url, options)
   .then(result => {
       jokeElem.innerText = result.joke;
   });
+
+// play dad music
+new Audio("minion-laugh.mp3").play();
