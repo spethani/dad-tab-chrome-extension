@@ -88,3 +88,26 @@ h1 {
 img {
   height: 150px;
 }
+
+#credits {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+}
+
+#credits p {
+  font-size: 20px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: #ffffff;
+  text-shadow: 1px 1px #a1caf1;
+}
+
+#credits p a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#credits p a:hover {
+  color: #000000;
+}
