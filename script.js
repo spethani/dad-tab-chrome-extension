@@ -43,4 +43,6 @@ function randInt(min, max) {
 }
 
 // play song
-new Audio(`songs/song${randInt(1, 10)}.mp3`).play();
+let aud = new Audio(`songs/song${randInt(1, 10)}.mp3`)
+aud.volume = 0.5;
+aud.play();
